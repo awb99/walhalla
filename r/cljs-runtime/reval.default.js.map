@@ -1,0 +1,1 @@
+{"version":3,"sources":["reval/default.cljs"],"mappings":"","names":[],"sourcesContent":["(ns reval.default\n  \"default ns to load ns with side effects\"\n  (:require\n   ; to-hiccup converters   \n   [reval.type.cljs] ; side-effects!\n   [reval.type.sci] ; side-effects!\n   ))"],"x_google_ignoreList":[0]}

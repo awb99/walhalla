@@ -1,0 +1,111 @@
+{:meta {:id :7c9ab23f-c32f-4879-b74c-de7835ca8ba4
+          :title "sci cljs demo"
+          :tags #{:demo :sci :cljs}}
+   :segments
+   [{:id 1
+     :type :code
+     :data {:kernel :cljs
+            :code "; eval cljs\n(+ 7 7)"}
+     :state nil}
+    {:id 2
+     :type :code
+     :data {:kernel :cljs
+            :code "(notify \"Welcome to cljs repl\")"}}
+    {:id 3
+     :type :code
+     :data {:kernel :cljs
+            :code "{:a 1 :b [7 8]}"}}
+    {:id 4
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; this works only in profiles/test\n"
+                       "(def a (atom {:a 12}))\n"
+                       "(run-a a [:a] :demo/add 1 1)")}}
+
+    {:id 5
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; check if run-a got the data...\n"
+                       "@a")}}
+
+    {:id 6
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; inspect app-db ..\n"
+                       " (-> (app-db)\n"
+                       "     keys)")}}
+
+    {:id 7
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; bidi route navigation ..\n"
+                       ";(rf/dispatch [:bidi/goto \"/\"])\n")}}
+
+    {:id 8
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; bidi current route ..\n"
+                       "(current-route)")}}
+
+    {:id 9
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; current reframe subscription ..\n"
+                       "@(rf/subscribe [:webly/status-show-app])")}}
+
+    {:id 10
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; only works in demo profile (profiles/demo/cljs-sci/artefacts.cljs ..\n"
+                       "(artefacts \"ui artefacts\" ui)")}}
+
+    {:id 11
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; this version works too: \n"
+                       "^:R [artefacts \"ui artefacts\" ui]")}}
+
+    {:id 12
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; create a custom render function and register it: \n"
+                       "(defn y [] ^:R [:p.text-red-400 \"yyy\"])"
+                       "(register-tag :p/y y)")}}
+
+    {:id 13
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; use custom renderer: \n"
+                       "^:R [:p/y]")}}
+
+    {:id 14
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; lazy load test:  (see console for result)\n"
+                       "(lazytest) \n")}}
+
+    {:id 15
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; lazy loading: \n"
+                       "snippets/add"
+                       "(require '[snippets :as s]) \n"
+                       "(s/add 7 7) \n")}}
+
+    {:id 16
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; aggrid: \n"
+                       "^:R [:p/aggrid \n"
+                       "{:data [{:make \"Toyota\" :model \"Celica\" :price 35000} \n"
+                       "        {:make \"Ford\" :model \"Mondeo\" :price 32000} \n"
+                       "        {:make \"Porsche\" :model \"Boxter\" :price 72000}]}]")}}
+
+    {:id 17
+     :type :code
+     :data {:kernel :cljs
+            :code (str "; pinkie tag registry \n"
+                       "(pinkie/tags) \n")}}
+
+    ;
+    ]}

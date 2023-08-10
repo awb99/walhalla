@@ -1,0 +1,1 @@
+{"version":3,"sources":["adder.cljs"],"mappings":";AAEA,YAAA,ZAAMA,gCAAKC,EAAEC;AAAb,AACE,QAAA,UAAA,TAAGD,IAAEC;;AAEP,aAAA,bAAMC,kCAAMF,EAAEC;AAAd,AACE,QAAA,UAAA,TAAGD,IAAEC","names":["adder/add","a","b","adder/mult"],"sourcesContent":["(ns adder)\n\n(defn add [a b]\n  (+ a b 1000))\n\n(defn mult [a b]\n  (* a b 1000))\n\n"]}

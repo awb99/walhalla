@@ -1,0 +1,5 @@
+goog.provide('modular.encoding.transit');
+modular.encoding.transit.decode = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"handlers","handlers",79528781),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"handlers","handlers",79528781).cljs$core$IFn$_invoke$arity$1(modular.encoding.time.time_deserialization_handlers),new cljs.core.Keyword(null,"handlers","handlers",79528781).cljs$core$IFn$_invoke$arity$1(modular.encoding.bidi.bidi_deserialization_handlers)], 0))], null);
+modular.encoding.transit.encode = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"handlers","handlers",79528781),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"handlers","handlers",79528781).cljs$core$IFn$_invoke$arity$1(modular.encoding.time.time_serialization_handlers),new cljs.core.Keyword(null,"handlers","handlers",79528781).cljs$core$IFn$_invoke$arity$1(modular.encoding.bidi.bidi_serialization_handlers)], 0))], null);
+
+//# sourceMappingURL=modular.encoding.transit.js.map

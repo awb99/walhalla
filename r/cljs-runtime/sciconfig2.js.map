@@ -1,0 +1,1 @@
+{"version":3,"sources":["sciconfig2.cljs"],"mappings":";AAEA,wBAAA,xBAAKA;AAGL,sBAAA,2CAAA,AAAA,jEAAKC,0HACID","names":["sciconfig2/bongo-name","sciconfig2/ns-bongo"],"sourcesContent":["(ns sciconfig2)\n\n(def bongo-name\n  \"bongistan (the lazy bitch)\")\n\n(def ns-bongo\n  {'name bongo-name})\n\n\n"]}

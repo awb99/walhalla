@@ -1,0 +1,3 @@
+SHADOW_ENV.evalLoad("shadow.module.adder.prepend.js", false , "\nshadow.loader.set_load_start(\x27adder\x27);");
+SHADOW_ENV.evalLoad("adder.js", true , "goog.provide(\x27adder\x27);\nadder.add \x3d (function adder$add(a,b){\nreturn ((a + b) + (1000));\n});\nadder.mult \x3d (function adder$mult(a,b){\nreturn ((a * b) * (1000));\n});\n");
+SHADOW_ENV.evalLoad("shadow.module.adder.append.js", false , "\nshadow.loader.set_loaded();;\nSHADOW_ENV.setLoaded(\x22shadow.module.adder.prepend.js\x22);\nSHADOW_ENV.setLoaded(\x22adder.js\x22);\nSHADOW_ENV.setLoaded(\x22shadow.module.adder.append.js\x22);");

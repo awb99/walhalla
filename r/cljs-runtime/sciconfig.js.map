@@ -1,0 +1,1 @@
+{"version":3,"sources":["sciconfig.cljs"],"mappings":";AAEA,uBAAA,vBAAKA;AAGL,qBAAA,2CAAA,AAAA,hEAAKC,yHACID","names":["sciconfig/bongo-name","sciconfig/ns-bongo"],"sourcesContent":["(ns sciconfig)\n\n(def bongo-name\n  \"bongistan\")\n\n(def ns-bongo\n  {'name bongo-name})\n\n\n"]}
