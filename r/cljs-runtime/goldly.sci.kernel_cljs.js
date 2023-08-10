@@ -1,14 +1,14 @@
 goog.provide('goldly.sci.kernel_cljs');
 goldly.sci.kernel_cljs.require_async = (function goldly$sci$kernel_cljs$require_async(var_args){
 var args__5775__auto__ = [];
-var len__5769__auto___54631 = arguments.length;
-var i__5770__auto___54632 = (0);
+var len__5769__auto___54632 = arguments.length;
+var i__5770__auto___54633 = (0);
 while(true){
-if((i__5770__auto___54632 < len__5769__auto___54631)){
-args__5775__auto__.push((arguments[i__5770__auto___54632]));
+if((i__5770__auto___54633 < len__5769__auto___54632)){
+args__5775__auto__.push((arguments[i__5770__auto___54633]));
 
-var G__54633 = (i__5770__auto___54632 + (1));
-i__5770__auto___54632 = G__54633;
+var G__54634 = (i__5770__auto___54633 + (1));
+i__5770__auto___54633 = G__54634;
 continue;
 } else {
 }
@@ -27,14 +27,14 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(sci.async.require,goldly.sc
 (goldly.sci.kernel_cljs.require_async.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(goldly.sci.kernel_cljs.require_async.cljs$lang$applyTo = (function (seq54626){
+(goldly.sci.kernel_cljs.require_async.cljs$lang$applyTo = (function (seq54627){
 var self__5755__auto__ = this;
-return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq54626));
+return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq54627));
 }));
 
 goldly.sci.kernel_cljs.compile_code = (function goldly$sci$kernel_cljs$compile_code(code){
 try{return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"result","result",1415092211),sci.core.eval_string_STAR_(goldly.sci.kernel_cljs.ctx_repl,code)], null);
-}catch (e54627){var e = e54627;
+}catch (e54628){var e = e54628;
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"goldly.sci.kernel-cljs",null,41,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["sci compile-code --]",code,"[-- ex: ",e], null);
 }),null)),null,(96),null);
@@ -50,14 +50,14 @@ cljs.core.enable_console_print_BANG_();
 goldly.sci.kernel_cljs.output = cljs.core.atom.cljs$core$IFn$_invoke$arity$1("");
 goldly.sci.kernel_cljs.my_print_fn = (function goldly$sci$kernel_cljs$my_print_fn(var_args){
 var args__5775__auto__ = [];
-var len__5769__auto___54634 = arguments.length;
-var i__5770__auto___54635 = (0);
+var len__5769__auto___54635 = arguments.length;
+var i__5770__auto___54636 = (0);
 while(true){
-if((i__5770__auto___54635 < len__5769__auto___54634)){
-args__5775__auto__.push((arguments[i__5770__auto___54635]));
+if((i__5770__auto___54636 < len__5769__auto___54635)){
+args__5775__auto__.push((arguments[i__5770__auto___54636]));
 
-var G__54636 = (i__5770__auto___54635 + (1));
-i__5770__auto___54635 = G__54636;
+var G__54637 = (i__5770__auto___54636 + (1));
+i__5770__auto___54636 = G__54637;
 continue;
 } else {
 }
@@ -79,9 +79,9 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(goldly.sci.kernel_cljs
 (goldly.sci.kernel_cljs.my_print_fn.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(goldly.sci.kernel_cljs.my_print_fn.cljs$lang$applyTo = (function (seq54628){
+(goldly.sci.kernel_cljs.my_print_fn.cljs$lang$applyTo = (function (seq54629){
 var self__5755__auto__ = this;
-return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq54628));
+return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq54629));
 }));
 
 sci.core.alter_var_root.cljs$core$IFn$_invoke$arity$2(sci.core.print_fn,cljs.core.constantly(goldly.sci.kernel_cljs.my_print_fn));
@@ -97,10 +97,10 @@ sci.impl.vars.push_thread_bindings(bm__51638__auto__);
 
 try{var eval_p = sci.async.eval_string_PLUS_.cljs$core$IFn$_invoke$arity$2(goldly.sci.kernel_cljs.ctx_repl,code);
 return eval_p.then((function (res){
-var map__54630 = res;
-var map__54630__$1 = cljs.core.__destructure_map(map__54630);
-var val = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54630__$1,new cljs.core.Keyword(null,"val","val",128701612));
-var ns = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54630__$1,new cljs.core.Keyword(null,"ns","ns",441598760));
+var map__54631 = res;
+var map__54631__$1 = cljs.core.__destructure_map(map__54631);
+var val = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54631__$1,new cljs.core.Keyword(null,"val","val",128701612));
+var ns = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54631__$1,new cljs.core.Keyword(null,"ns","ns",441598760));
 var result = new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"id","id",-1388402092),null,new cljs.core.Keyword(null,"code","code",1586293142),code,new cljs.core.Keyword(null,"value","value",305978217),val,new cljs.core.Keyword(null,"out","out",-910545517),cljs.core.deref(goldly.sci.kernel_cljs.output),new cljs.core.Keyword(null,"ns","ns",441598760),cljs.core.str.cljs$core$IFn$_invoke$arity$1(ns)], null);
 cljs.core.reset_BANG_(goldly.sci.kernel_cljs._BANG_last_ns,ns);
 
@@ -113,7 +113,7 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 return result;
 }));
 }finally {sci.impl.vars.pop_thread_bindings();
-}}catch (e54629){var e = e54629;
+}}catch (e54630){var e = e54630;
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"goldly.sci.kernel-cljs",null,92,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["sci compile-code-async --]",code,"[-- ex: ",e], null);
 }),null)),null,(97),null);

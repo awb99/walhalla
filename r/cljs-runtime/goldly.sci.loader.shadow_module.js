@@ -56,13 +56,13 @@ taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["load-module: ",libname], null);
 }),null)),null,(94),null);
 
-var promises = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__54619){
-var vec__54620 = p__54619;
-var sci_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54620,(0),null);
-var map__54623 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54620,(1),null);
-var map__54623__$1 = cljs.core.__destructure_map(map__54623);
-var sci_def = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54623__$1,new cljs.core.Keyword(null,"sci-def","sci-def",-971575708));
-var loadable = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54623__$1,new cljs.core.Keyword(null,"loadable","loadable",-411421563));
+var promises = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__54620){
+var vec__54621 = p__54620;
+var sci_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54621,(0),null);
+var map__54624 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54621,(1),null);
+var map__54624__$1 = cljs.core.__destructure_map(map__54624);
+var sci_def = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54624__$1,new cljs.core.Keyword(null,"sci-def","sci-def",-971575708));
+var loadable = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54624__$1,new cljs.core.Keyword(null,"loadable","loadable",-411421563));
 return goldly.sci.loader.shadow_module.load_module_ns(ctx,libname,ns,opts,sci_ns,sci_def,loadable);
 }),sci_mod);
 var p_all = promesa.core.all(promises);
