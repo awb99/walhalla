@@ -35,9 +35,9 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(event,new cljs.core.Keyword("chsk","timeout","chsk/timeout",-319776489))){
 return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(ch,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword(null,"timeout","timeout",-318625318)], null));
 } else {
-var vec__55132 = event;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55132,(0),null);
-var data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55132,(1),null);
+var vec__55135 = event;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55135,(0),null);
+var data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55135,(1),null);
 return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(ch,data);
 }
 });
@@ -46,9 +46,9 @@ goldly.service.core.run_cb(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(params,
 return ch;
 });
 goldly.service.core.wait_chan_result = (function goldly$service$core$wait_chan_result(ch,fn_success,fn_err){
-var c__41395__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__41381__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__41396__auto__ = (function (){var switch__41305__auto__ = (function (state_55155){
+var f__41382__auto__ = (function (){var switch__41305__auto__ = (function (state_55155){
 var state_val_55156 = (state_55155[(1)]);
 if((state_val_55156 === (1))){
 var state_55155__$1 = state_55155;
@@ -93,10 +93,10 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_55156 === (4))){
 var state_55155__$1 = state_55155;
-var statearr_55161_55189 = state_55155__$1;
-(statearr_55161_55189[(2)] = null);
+var statearr_55162_55189 = state_55155__$1;
+(statearr_55162_55189[(2)] = null);
 
-(statearr_55161_55189[(1)] = (5));
+(statearr_55162_55189[(1)] = (5));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -125,20 +125,20 @@ if((state_val_55156 === (6))){
 var inst_55143 = (state_55155[(8)]);
 var inst_55150 = (fn_success.cljs$core$IFn$_invoke$arity$1 ? fn_success.cljs$core$IFn$_invoke$arity$1(inst_55143) : fn_success.call(null,inst_55143));
 var state_55155__$1 = state_55155;
-var statearr_55167_55192 = state_55155__$1;
-(statearr_55167_55192[(2)] = inst_55150);
+var statearr_55168_55192 = state_55155__$1;
+(statearr_55168_55192[(2)] = inst_55150);
 
-(statearr_55167_55192[(1)] = (8));
+(statearr_55168_55192[(1)] = (8));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_55156 === (7))){
 var state_55155__$1 = state_55155;
-var statearr_55168_55193 = state_55155__$1;
-(statearr_55168_55193[(2)] = null);
+var statearr_55169_55193 = state_55155__$1;
+(statearr_55169_55193[(2)] = null);
 
-(statearr_55168_55193[(1)] = (8));
+(statearr_55169_55193[(1)] = (8));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -218,20 +218,20 @@ goldly$service$core$wait_chan_result_$_state_machine__41306__auto__.cljs$core$IF
 return goldly$service$core$wait_chan_result_$_state_machine__41306__auto__;
 })()
 })();
-var state__41397__auto__ = (function (){var statearr_55175 = f__41396__auto__();
-(statearr_55175[(6)] = c__41395__auto__);
+var state__41383__auto__ = (function (){var statearr_55175 = f__41382__auto__();
+(statearr_55175[(6)] = c__41381__auto__);
 
 return statearr_55175;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__41397__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__41383__auto__);
 }));
 
-return c__41395__auto__;
+return c__41381__auto__;
 });
 goldly.service.core.process_error = (function goldly$service$core$process_error(data){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"goldly.service.core",null,47,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["error in clj-service: ",data], null);
-}),null)),null,(238),null);
+}),null)),null,(237),null);
 
 return frontend.notifications.core.add_notification.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([data], 0)));
 });
@@ -239,7 +239,7 @@ goldly.service.core.process_timeout = (function goldly$service$core$process_time
 var data_safe = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(data,new cljs.core.Keyword(null,"a","a",-2123407586));
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"goldly.service.core",null,52,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["timeout in clj-service: ",data_safe], null);
-}),null)),null,(240),null);
+}),null)),null,(239),null);
 
 return frontend.notifications.core.add_notification.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"error","error",-978969032),["timeout clj-fun: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"fun","fun",-1265158045).cljs$core$IFn$_invoke$arity$1(data))].join(''));
 });

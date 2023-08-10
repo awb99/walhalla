@@ -10,16 +10,16 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 
 return window.open(url_auth,["Webly OAuth2 ",cljs.core.name(provider)].join(''),"width=500,height=600");
 });
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","authorize-start","oauth2/authorize-start",1379461893),(function (db,p__41347){
-var vec__41348 = p__41347;
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","authorize-start","oauth2/authorize-start",1379461893),(function (db,p__41343){
+var vec__41348 = p__41343;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(0),null);
 var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(1),null);
 var oauth_success_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(2),null);
 var window__$1 = modular.oauth2.authorize.start.open_authorize_window(db,provider);
 return cljs.core.assoc_in(db,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"oauth-authorize","oauth-authorize",1699524488)], null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"window","window",724519534),window__$1,new cljs.core.Keyword(null,"success-event","success-event",2038143820),oauth_success_event], null));
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","authorize-success","oauth2/authorize-success",1740761473),(function (db,p__41354){
-var vec__41359 = p__41354;
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","authorize-success","oauth2/authorize-success",1740761473),(function (db,p__41358){
+var vec__41359 = p__41358;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41359,(0),null);
 var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41359,(1),null);
 var token = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41359,(2),null);

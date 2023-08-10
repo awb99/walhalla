@@ -5,8 +5,8 @@ modular.oauth2.protocol.provider_config = (function (){var method_table__5642__a
 var prefer_table__5643__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__5644__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__5645__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__5646__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__39839 = cljs.core.get_global_hierarchy;
-return (fexpr__39839.cljs$core$IFn$_invoke$arity$0 ? fexpr__39839.cljs$core$IFn$_invoke$arity$0() : fexpr__39839.call(null));
+var hierarchy__5646__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__39838 = cljs.core.get_global_hierarchy;
+return (fexpr__39838.cljs$core$IFn$_invoke$arity$0 ? fexpr__39838.cljs$core$IFn$_invoke$arity$0() : fexpr__39838.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("modular.oauth2.protocol","provider-config"),(function (type){
 return type;

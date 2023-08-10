@@ -7,7 +7,7 @@ var prefix = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.Per
 if(clojure.string.blank_QMARK_(prefix)){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"frontend.settings.subscriptions",null,19,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["prefix is blank - returning /r/"], null);
-}),null)),null,(163),null);
+}),null)),null,(161),null);
 
 return "/r/";
 } else {

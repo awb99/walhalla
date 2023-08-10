@@ -1,16 +1,16 @@
 goog.provide('goldly.sci.error');
 goldly.sci.error.sci_error = (function goldly$sci$error$sci_error(error){
-var map__50097 = error;
-var map__50097__$1 = cljs.core.__destructure_map(map__50097);
-var err = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50097__$1,new cljs.core.Keyword(null,"err","err",-2089457205));
-var root_ex = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50097__$1,new cljs.core.Keyword(null,"root-ex","root-ex",-1080814778));
-var map__50098 = root_ex;
-var map__50098__$1 = cljs.core.__destructure_map(map__50098);
-var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50098__$1,new cljs.core.Keyword(null,"type","type",1174270348));
-var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50098__$1,new cljs.core.Keyword(null,"line","line",212345235));
-var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50098__$1,new cljs.core.Keyword(null,"column","column",2078222095));
-var file = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50098__$1,new cljs.core.Keyword(null,"file","file",-1269645878));
-var phase = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50098__$1,new cljs.core.Keyword(null,"phase","phase",575722892));
+var map__49656 = error;
+var map__49656__$1 = cljs.core.__destructure_map(map__49656);
+var err = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49656__$1,new cljs.core.Keyword(null,"err","err",-2089457205));
+var root_ex = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49656__$1,new cljs.core.Keyword(null,"root-ex","root-ex",-1080814778));
+var map__49657 = root_ex;
+var map__49657__$1 = cljs.core.__destructure_map(map__49657);
+var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49657__$1,new cljs.core.Keyword(null,"type","type",1174270348));
+var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49657__$1,new cljs.core.Keyword(null,"line","line",212345235));
+var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49657__$1,new cljs.core.Keyword(null,"column","column",2078222095));
+var file = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49657__$1,new cljs.core.Keyword(null,"file","file",-1269645878));
+var phase = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49657__$1,new cljs.core.Keyword(null,"phase","phase",575722892));
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.inline-block","div.inline-block",-502349916),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p.text-red-500.text-bold","p.text-red-500.text-bold",2083907018),err], null),(cljs.core.truth_(root_ex)?new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"phase: ",phase," type: ",type], null):null),(cljs.core.truth_(root_ex)?new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"file: ",file,"line: ",line," column: ",column], null):null)], null);
 });
 goldly.sci.error.error_view = (function goldly$sci$error$error_view(filename,error){

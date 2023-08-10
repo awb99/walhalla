@@ -30,9 +30,9 @@ return null;
 }
 });
 frontend.keybindings.component.palette_item = (function frontend$keybindings$component$palette_item(item,active_QMARK_){
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),(cljs.core.truth_(active_QMARK_)?"bg-red-300":null),new cljs.core.Keyword(null,"ref","ref",1289896967),(function (p1__44896_SHARP_){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),(cljs.core.truth_(active_QMARK_)?"bg-red-300":null),new cljs.core.Keyword(null,"ref","ref",1289896967),(function (p1__44898_SHARP_){
 if(cljs.core.truth_(active_QMARK_)){
-return frontend.keybindings.component.scroll_into_view(p1__44896_SHARP_);
+return frontend.keybindings.component.scroll_into_view(p1__44898_SHARP_);
 } else {
 return null;
 }
@@ -47,11 +47,11 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 });
 frontend.keybindings.component.keybindings_dialog = (function frontend$keybindings$component$keybindings_dialog(){
 var palette = re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"palette","palette",-456203511)], null));
-var map__44899 = cljs.core.deref(palette);
-var map__44899__$1 = cljs.core.__destructure_map(map__44899);
-var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44899__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
-var visible_items = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44899__$1,new cljs.core.Keyword(null,"visible-items","visible-items",1351335131));
-var highlight = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44899__$1,new cljs.core.Keyword(null,"highlight","highlight",-800930873));
+var map__44906 = cljs.core.deref(palette);
+var map__44906__$1 = cljs.core.__destructure_map(map__44906);
+var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44906__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
+var visible_items = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44906__$1,new cljs.core.Keyword(null,"visible-items","visible-items",1351335131));
+var highlight = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44906__$1,new cljs.core.Keyword(null,"highlight","highlight",-800930873));
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.bg-blue-200","div.bg-blue-200",1411808396),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [frontend.keybindings.component.search_box,query], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [frontend.keybindings.component.keybinding_list,visible_items,highlight], null)], null);
 });
 

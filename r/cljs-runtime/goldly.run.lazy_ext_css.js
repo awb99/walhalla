@@ -3,8 +3,8 @@ goldly.run.lazy_ext_css.mapping_table = cljs.core.PersistentHashMap.fromArrays([
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"warn","warn",-436710552),"goldly.run.lazy-ext-css",null,12,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["compiled extension mappings:",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([goldly.run.lazy_ext_css.mapping_table], 0))], null);
 }),null)),null,(235),null);
-goldly.run.lazy_ext_css.lazy_QMARK_ = (function goldly$run$lazy_ext_css$lazy_QMARK_(p__55162){
-var map__55163 = p__55162;
+goldly.run.lazy_ext_css.lazy_QMARK_ = (function goldly$run$lazy_ext_css$lazy_QMARK_(p__55161){
+var map__55163 = p__55161;
 var map__55163__$1 = cljs.core.__destructure_map(map__55163);
 var ext = map__55163__$1;
 var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55163__$1,new cljs.core.Keyword(null,"name","name",1843675177));
@@ -15,8 +15,8 @@ if((typeof goldly !== 'undefined') && (typeof goldly.run !== 'undefined') && (ty
 } else {
 goldly.run.lazy_ext_css.lazy_loaded_atom = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentHashSet.EMPTY);
 }
-goldly.run.lazy_ext_css.loaded_QMARK_ = (function goldly$run$lazy_ext_css$loaded_QMARK_(p__55169){
-var map__55170 = p__55169;
+goldly.run.lazy_ext_css.loaded_QMARK_ = (function goldly$run$lazy_ext_css$loaded_QMARK_(p__55167){
+var map__55170 = p__55167;
 var map__55170__$1 = cljs.core.__destructure_map(map__55170);
 var ext = map__55170__$1;
 var name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55170__$1,new cljs.core.Keyword(null,"name","name",1843675177));
@@ -34,7 +34,7 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 goldly.run.lazy_ext_css.load_css = (function goldly$run$lazy_ext_css$load_css(ext_name){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"goldly.run.lazy-ext-css",null,34,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["layz-loading css for: ",ext_name], null);
-}),null)),null,(237),null);
+}),null)),null,(238),null);
 
 var ext_theme = (function (){var or__5045__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(goldly.run.lazy_ext_css.themes,ext_name);
 if(cljs.core.truth_(or__5045__auto__)){
@@ -46,7 +46,7 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"av
 var evt = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("css","add-components","css/add-components",-873575861),new cljs.core.Keyword(null,"available","available",-1470697127).cljs$core$IFn$_invoke$arity$1(ext_theme),new cljs.core.Keyword(null,"current","current",-1088038603).cljs$core$IFn$_invoke$arity$1(ext_theme)], null);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"warn","warn",-436710552),"goldly.run.lazy-ext-css",null,39,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["theme for ",ext_name,": ",evt], null);
-}),null)),null,(239),null);
+}),null)),null,(240),null);
 
 return re_frame.core.dispatch(evt);
 });

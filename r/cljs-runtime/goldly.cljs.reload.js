@@ -15,7 +15,7 @@ goldly.cljs.reload.reload_cljs = (function goldly$cljs$reload$reload_cljs(){
 var c = cljs.core.deref(frontend.routes.current);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"warn","warn",-436710552),"goldly.cljs.reload",null,19,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["reload: ",c], null);
-}),null)),null,(223),null);
+}),null)),null,(224),null);
 
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("bidi","goto","bidi/goto",82927145),new cljs.core.Keyword("goldly","reload-cljs","goldly/reload-cljs",334924610)], null));
 

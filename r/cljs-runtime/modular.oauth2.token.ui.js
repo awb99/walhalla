@@ -26,8 +26,8 @@ modular.oauth2.token.ui.provider_status_grid = (function modular$oauth2$token$ui
 var c = re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("ws","connected?","ws/connected?",-1197555199)], null));
 var tokens_status = re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("tokens","summary","tokens/summary",1240646086),providers], null));
 var provider_status = (function (provider){
-return modular.oauth2.token.ui.provider_status(provider,(function (){var G__52252 = cljs.core.deref(tokens_status);
-return (provider.cljs$core$IFn$_invoke$arity$1 ? provider.cljs$core$IFn$_invoke$arity$1(G__52252) : provider.call(null,G__52252));
+return modular.oauth2.token.ui.provider_status(provider,(function (){var G__52254 = cljs.core.deref(tokens_status);
+return (provider.cljs$core$IFn$_invoke$arity$1 ? provider.cljs$core$IFn$_invoke$arity$1(G__52254) : provider.call(null,G__52254));
 })());
 });
 var todo_QMARK_ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(true);

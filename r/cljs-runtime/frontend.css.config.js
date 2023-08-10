@@ -22,11 +22,11 @@ return or__5045__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 });
-var links = (function (){var G__44878 = component_theme__$1;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(false,G__44878)){
+var links = (function (){var G__44881 = component_theme__$1;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(false,G__44881)){
 return cljs.core.PersistentVector.EMPTY;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(true,G__44878)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(true,G__44881)){
 return get_theme(true);
 } else {
 return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(get_theme(true),get_theme(component_theme__$1));

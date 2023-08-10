@@ -6,17 +6,17 @@ return (((node instanceof rewrite_clj.node.reader_macro.ReaderMacroNode)) || (((
 return null;
 }
 });
-reval.editor.in_range_QMARK_ = (function reval$editor$in_range_QMARK_(p__54480,p__54481){
-var map__54482 = p__54480;
-var map__54482__$1 = cljs.core.__destructure_map(map__54482);
-var row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54482__$1,new cljs.core.Keyword(null,"row","row",-570139521));
-var col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54482__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
-var end_row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54482__$1,new cljs.core.Keyword(null,"end-row","end-row",-545103581));
-var end_col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54482__$1,new cljs.core.Keyword(null,"end-col","end-col",-724155879));
-var map__54483 = p__54481;
-var map__54483__$1 = cljs.core.__destructure_map(map__54483);
-var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54483__$1,new cljs.core.Keyword(null,"row","row",-570139521));
-var c = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54483__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
+reval.editor.in_range_QMARK_ = (function reval$editor$in_range_QMARK_(p__55082,p__55083){
+var map__55084 = p__55082;
+var map__55084__$1 = cljs.core.__destructure_map(map__55084);
+var row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55084__$1,new cljs.core.Keyword(null,"row","row",-570139521));
+var col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55084__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
+var end_row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55084__$1,new cljs.core.Keyword(null,"end-row","end-row",-545103581));
+var end_col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55084__$1,new cljs.core.Keyword(null,"end-col","end-col",-724155879));
+var map__55085 = p__55083;
+var map__55085__$1 = cljs.core.__destructure_map(map__55085);
+var r = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55085__$1,new cljs.core.Keyword(null,"row","row",-570139521));
+var c = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55085__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
 var and__5043__auto__ = (r >= row);
 if(and__5043__auto__){
 var and__5043__auto____$1 = (r <= end_row);
@@ -44,17 +44,17 @@ return and__5043__auto__;
  *   location.
  */
 reval.editor.find_inners_by_pos = (function reval$editor$find_inners_by_pos(zloc,pos){
-return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__54486_SHARP_){
-return reval.editor.in_range_QMARK_(cljs.core.meta((rewrite_clj.zip.node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.node.cljs$core$IFn$_invoke$arity$1(p1__54486_SHARP_) : rewrite_clj.zip.node.call(null,p1__54486_SHARP_))),pos);
+return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__55086_SHARP_){
+return reval.editor.in_range_QMARK_(cljs.core.meta((rewrite_clj.zip.node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.node.cljs$core$IFn$_invoke$arity$1(p1__55086_SHARP_) : rewrite_clj.zip.node.call(null,p1__55086_SHARP_))),pos);
 }),cljs.core.take_while.cljs$core$IFn$_invoke$arity$2(cljs.core.complement(rewrite_clj.zip.move.end_QMARK_),cljs.core.take_while.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,cljs.core.iterate(rewrite_clj.zip.next,zloc))));
 });
 reval.editor.filter_forms = (function reval$editor$filter_forms(nodes){
 if(cljs.core.truth_(nodes)){
 var valid_tag_QMARK_ = cljs.core.comp.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"vector","vector",1902966158),null,new cljs.core.Keyword(null,"list","list",765357683),null,new cljs.core.Keyword(null,"quote","quote",-262615245),null,new cljs.core.Keyword(null,"set","set",304602554),null,new cljs.core.Keyword(null,"map","map",1371690461),null], null), null),new cljs.core.Keyword(null,"tag","tag",-1290361223));
-return cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__54497){
-var vec__54498 = p__54497;
-var fst = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54498,(0),null);
-var snd = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54498,(1),null);
+return cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__55088){
+var vec__55089 = p__55088;
+var fst = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55089,(0),null);
+var snd = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55089,(1),null);
 if(cljs.core.truth_(reval.editor.reader_tag_QMARK_(fst))){
 return fst;
 } else {
@@ -88,7 +88,7 @@ reval.editor.zip_from_code = (function reval$editor$zip_from_code(code){
 var reader = cljs.tools.reader.reader_types.indexing_push_back_reader.cljs$core$IFn$_invoke$arity$1(code);
 var nodes = cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.take_while.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,cljs.core.repeatedly.cljs$core$IFn$_invoke$arity$1((function (){
 try{return rewrite_clj.parser.parse(reader);
-}catch (e54503){var _ = e54503;
+}catch (e55093){var _ = e55093;
 cljs.tools.reader.reader_types.read_char(reader);
 
 return (rewrite_clj.node.whitespace_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.whitespace_node.cljs$core$IFn$_invoke$arity$1(" ") : rewrite_clj.node.whitespace_node.call(null," "));
@@ -99,23 +99,23 @@ return rewrite_clj.zip.base.edn(all_nodes,new cljs.core.PersistentArrayMap(null,
 /**
  * Gets the current block from the code (a string) to the current row and col (0-based)
  */
-reval.editor.block_for = (function reval$editor$block_for(code,p__54504){
-var vec__54505 = p__54504;
-var row = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54505,(0),null);
-var col = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__54505,(1),null);
+reval.editor.block_for = (function reval$editor$block_for(code,p__55102){
+var vec__55103 = p__55102;
+var row = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55103,(0),null);
+var col = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55103,(1),null);
 var node_block = reval.editor.filter_forms(cljs.core.reverse(reval.editor.find_inners_by_pos(reval.editor.zip_from_code(code),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"row","row",-570139521),(row + (1)),new cljs.core.Keyword(null,"col","col",-1959363084),(col + (1))], null))));
-var map__54509 = (function (){var G__54510 = node_block;
-if((G__54510 == null)){
+var map__55111 = (function (){var G__55113 = node_block;
+if((G__55113 == null)){
 return null;
 } else {
-return cljs.core.meta(G__54510);
+return cljs.core.meta(G__55113);
 }
 })();
-var map__54509__$1 = cljs.core.__destructure_map(map__54509);
-var row__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54509__$1,new cljs.core.Keyword(null,"row","row",-570139521));
-var col__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54509__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
-var end_row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54509__$1,new cljs.core.Keyword(null,"end-row","end-row",-545103581));
-var end_col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54509__$1,new cljs.core.Keyword(null,"end-col","end-col",-724155879));
+var map__55111__$1 = cljs.core.__destructure_map(map__55111);
+var row__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55111__$1,new cljs.core.Keyword(null,"row","row",-570139521));
+var col__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55111__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
+var end_row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55111__$1,new cljs.core.Keyword(null,"end-row","end-row",-545103581));
+var end_col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55111__$1,new cljs.core.Keyword(null,"end-col","end-col",-724155879));
 if(cljs.core.truth_(node_block)){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(row__$1 - (1)),(col__$1 - (1))], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(end_row - (1)),(end_col - (2))], null)], null),(rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1(node_block) : rewrite_clj.node.string.call(null,node_block))], null);
 } else {

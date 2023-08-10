@@ -21,8 +21,8 @@ re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.Pers
 
 return db;
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("css","add-components","css/add-components",-873575861),(function (db,p__44872){
-var vec__44874 = p__44872;
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("css","add-components","css/add-components",-873575861),(function (db,p__44873){
+var vec__44874 = p__44873;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44874,(0),null);
 var components = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44874,(1),null);
 var components_default_config = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44874,(2),null);
