@@ -5,6 +5,8 @@ return reagent.dom.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.Persistent
 goldly.static$.app.start = (function goldly$static$app$start(symbol_page_as_string){
 cljs.core.enable_console_print_BANG_();
 
+goldly.sci.loader.cljs_source_http.set_github_load_mode();
+
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["starting goldly static app page symbol:",symbol_page_as_string], 0));
 
 var page_symbol = cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(symbol_page_as_string);
