@@ -37,7 +37,7 @@ try{return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null
 }catch (e54628){var e = e54628;
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"goldly.sci.kernel-cljs",null,41,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["sci compile-code --]",code,"[-- ex: ",e], null);
-}),null)),null,(99),null);
+}),null)),null,(100),null);
 
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"root-ex","root-ex",-1080814778),e.data,new cljs.core.Keyword(null,"err","err",-2089457205),e.message], null)], null);
 }});
@@ -108,7 +108,7 @@ cljs.core.reset_BANG_(goldly.sci.kernel_cljs.output,"");
 
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"goldly.sci.kernel-cljs",null,89,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["sci-cljs compile result: ",result], null);
-}),null)),null,(101),null);
+}),null)),null,(102),null);
 
 return result;
 }));
@@ -116,7 +116,7 @@ return result;
 }}catch (e54630){var e = e54630;
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"goldly.sci.kernel-cljs",null,92,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["sci compile-code-async --]",code,"[-- ex: ",e], null);
-}),null)),null,(100),null);
+}),null)),null,(101),null);
 
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"root-ex","root-ex",-1080814778),e.data,new cljs.core.Keyword(null,"err","err",-2089457205),e.message], null)], null);
 }});
