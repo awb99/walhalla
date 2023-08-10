@@ -404,6 +404,7 @@ SHADOW_ENV.setLoaded("sci.impl.interpreter.js");
 SHADOW_ENV.setLoaded("sci.core.js");
 SHADOW_ENV.setLoaded("sci.async.js");
 SHADOW_ENV.setLoaded("goldly.sci.loader.cljs_source.js");
+SHADOW_ENV.setLoaded("goldly.sci.loader.static.js");
 SHADOW_ENV.setLoaded("goldly.sci.loader.cljs_source_http.js");
 SHADOW_ENV.setLoaded("promesa.protocols.js");
 SHADOW_ENV.setLoaded("promesa.util.js");
