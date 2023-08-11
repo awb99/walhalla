@@ -1,11 +1,14 @@
 goog.provide('goldly.static$.app');
+goog.scope(function(){
+  goldly.static.app.goog$module$shadow$loader = goog.module.get('shadow.loader');
+});
 goldly.static$.app.mount_app = (function goldly$static$app$mount_app(page_fn){
 return reagent.dom.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [page_fn], null),document.getElementById("app"));
 });
 goldly.static$.app.patch_path = (function goldly$static$app$patch_path(){
 goldly.sci.loader.cljs_source_http.set_github_load_mode();
 
-return goldly.sci.loader.shadow_module.set_github_load_mode();
+return goldly.static$.app.goog$module$shadow$loader.init(goldly.sci.loader.static$.dynamic_base());
 });
 goldly.static$.app.start = (function goldly$static$app$start(symbol_page_as_string){
 cljs.core.enable_console_print_BANG_();

@@ -7,7 +7,7 @@ return (function (e){
 var v = e.target.value;
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.user.login-dialog",null,14,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["changed: ",v], null);
-}),null)),null,(53),null);
+}),null)),null,(48),null);
 
 return cljs.core.reset_BANG_(a,v);
 });
@@ -15,14 +15,14 @@ return cljs.core.reset_BANG_(a,v);
 var login_local = (function (){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.user.login-dialog",null,17,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["logging in locally.."], null);
-}),null)),null,(54),null);
+}),null)),null,(49),null);
 
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("ws","send","ws/send",-652154486),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("login","local","login/local",-1592011595),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"username","username",1605666410),cljs.core.deref(username),new cljs.core.Keyword(null,"password","password",417022471),cljs.core.deref(password)], null)], null)], null));
 });
 var login_oidc = (function (provider){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.user.login-dialog",null,22,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["logging in oidc ",provider," .."], null);
-}),null)),null,(56),null);
+}),null)),null,(50),null);
 
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("oauth2","authorize-start","oauth2/authorize-start",1379461893),provider,new cljs.core.Keyword("oauth2","login-oauth-success","oauth2/login-oauth-success",-1529227958)], null));
 });
@@ -38,23 +38,23 @@ return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.co
 re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("login","dialog","login/dialog",1186171536),(function (_,___$1){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.user.login-dialog",null,64,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["showing login dialog"], null);
-}),null)),null,(57),null);
+}),null)),null,(55),null);
 
 return modular.oauth2.user.login_dialog.show_login_dialog();
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("login","local","login/local",-1592011595),(function (db,p__39912){
-var vec__39913 = p__39912;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39913,(0),null);
-var map__39916 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39913,(1),null);
-var map__39916__$1 = cljs.core.__destructure_map(map__39916);
-var result = map__39916__$1;
-var error = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39916__$1,new cljs.core.Keyword(null,"error","error",-978969032));
-var error_message = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39916__$1,new cljs.core.Keyword(null,"error-message","error-message",1756021561));
-var user = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39916__$1,new cljs.core.Keyword(null,"user","user",1532431356));
-var token = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39916__$1,new cljs.core.Keyword(null,"token","token",-1211463215));
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("login","local","login/local",-1592011595),(function (db,p__39914){
+var vec__39922 = p__39914;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39922,(0),null);
+var map__39925 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39922,(1),null);
+var map__39925__$1 = cljs.core.__destructure_map(map__39925);
+var result = map__39925__$1;
+var error = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39925__$1,new cljs.core.Keyword(null,"error","error",-978969032));
+var error_message = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39925__$1,new cljs.core.Keyword(null,"error-message","error-message",1756021561));
+var user = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39925__$1,new cljs.core.Keyword(null,"user","user",1532431356));
+var token = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39925__$1,new cljs.core.Keyword(null,"token","token",-1211463215));
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.user.login-dialog",null,70,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["login result: ",result], null);
-}),null)),null,(58),null);
+}),null)),null,(57),null);
 
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("modal","close","modal/close",1402872795)], null));
 
@@ -74,14 +74,14 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(nu
 return db;
 }
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","login-oauth-success","oauth2/login-oauth-success",-1529227958),(function (p__39917,p__39918){
-var map__39919 = p__39917;
-var map__39919__$1 = cljs.core.__destructure_map(map__39919);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39919__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__39920 = p__39918;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39920,(0),null);
-var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39920,(1),null);
-var token = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39920,(2),null);
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","login-oauth-success","oauth2/login-oauth-success",-1529227958),(function (p__39929,p__39930){
+var map__39931 = p__39929;
+var map__39931__$1 = cljs.core.__destructure_map(map__39931);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39931__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var vec__39932 = p__39930;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39932,(0),null);
+var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39932,(1),null);
+var token = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39932,(2),null);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.user.login-dialog",null,83,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["oauth2 login success via oidc for provider ",provider,"token: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([token], 0))], null);
 }),null)),null,(59),null);
@@ -90,13 +90,13 @@ re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.Pers
 
 return null;
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","logout","oauth2/logout",293951348),(function (p__39926,p__39927){
-var map__39928 = p__39926;
-var map__39928__$1 = cljs.core.__destructure_map(map__39928);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39928__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__39929 = p__39927;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39929,(0),null);
-var service = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39929,(1),null);
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","logout","oauth2/logout",293951348),(function (p__39937,p__39938){
+var map__39939 = p__39937;
+var map__39939__$1 = cljs.core.__destructure_map(map__39939);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39939__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var vec__39940 = p__39938;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39940,(0),null);
+var service = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39940,(1),null);
 var new_db = cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(db,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"token","token",-1211463215)], null),cljs.core.dissoc,service);
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"db","db",993250759),new_db], null);
 }));

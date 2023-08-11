@@ -10,8 +10,8 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 
 return window.open(url_auth,["Webly OAuth2 ",cljs.core.name(provider)].join(''),"width=500,height=600");
 });
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","authorize-start","oauth2/authorize-start",1379461893),(function (db,p__41343){
-var vec__41348 = p__41343;
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","authorize-start","oauth2/authorize-start",1379461893),(function (db,p__41347){
+var vec__41348 = p__41347;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(0),null);
 var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(1),null);
 var oauth_success_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(2),null);

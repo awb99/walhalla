@@ -1,5 +1,4 @@
-
-shadow.loader.init("");;
+;
 SHADOW_ENV.setLoaded("goog.base.js");
 SHADOW_ENV.setLoaded("goog.debug.error.js");
 SHADOW_ENV.setLoaded("goog.dom.nodetype.js");
@@ -356,6 +355,7 @@ SHADOW_ENV.setLoaded("webly.web.resources.js");
 SHADOW_ENV.setLoaded("webly.app.routes.js");
 SHADOW_ENV.setLoaded("webly.build.prefs.js");
 SHADOW_ENV.setLoaded("webly.app.app.js");
+SHADOW_ENV.setLoaded("goldly.sci.loader.static.js");
 SHADOW_ENV.setLoaded("goog.net.jsonp.js");
 SHADOW_ENV.setLoaded("goog.crypt.crypt.js");
 SHADOW_ENV.setLoaded("goog.crypt.base64.js");
@@ -404,7 +404,6 @@ SHADOW_ENV.setLoaded("sci.impl.interpreter.js");
 SHADOW_ENV.setLoaded("sci.core.js");
 SHADOW_ENV.setLoaded("sci.async.js");
 SHADOW_ENV.setLoaded("goldly.sci.loader.cljs_source.js");
-SHADOW_ENV.setLoaded("goldly.sci.loader.static.js");
 SHADOW_ENV.setLoaded("goldly.sci.loader.cljs_source_http.js");
 SHADOW_ENV.setLoaded("promesa.protocols.js");
 SHADOW_ENV.setLoaded("promesa.util.js");

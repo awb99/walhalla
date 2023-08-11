@@ -1,9 +1,9 @@
 goog.provide('modular.oauth2.request');
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"request","request",1772954723),(function (p__41320,p__41321){
-var map__41326 = p__41320;
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"request","request",1772954723),(function (p__41324,p__41325){
+var map__41326 = p__41324;
 var map__41326__$1 = cljs.core.__destructure_map(map__41326);
 var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41326__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__41327 = p__41321;
+var vec__41327 = p__41325;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41327,(0),null);
 var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41327,(1),null);
 var uri = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41327,(2),null);
@@ -41,13 +41,13 @@ frontend.notifications.core.add_notification.cljs$core$IFn$_invoke$arity$2(new c
 
 return cljs.core.PersistentArrayMap.EMPTY;
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","login-error","oauth2/login-error",-132128984),(function (p__41363,p__41364){
-var map__41365 = p__41363;
-var map__41365__$1 = cljs.core.__destructure_map(map__41365);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41365__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__41366 = p__41364;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41366,(0),null);
-var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41366,(1),null);
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","login-error","oauth2/login-error",-132128984),(function (p__41365,p__41366){
+var map__41367 = p__41365;
+var map__41367__$1 = cljs.core.__destructure_map(map__41367);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41367__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var vec__41368 = p__41366;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41368,(0),null);
+var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41368,(1),null);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"modular.oauth2.request",null,45,new cljs.core.Keyword(null,"f","f",-1597136552),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["oauth2 provider: %s error",provider], null);
 }),null)),null,(68),null);

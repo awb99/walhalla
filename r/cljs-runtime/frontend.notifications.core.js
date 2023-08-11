@@ -1,8 +1,8 @@
 goog.provide('frontend.notifications.core');
 frontend.notifications.core.notification_types = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"warning","warning",-1685650671),null,new cljs.core.Keyword(null,"info","info",-317069002),null,new cljs.core.Keyword(null,"error","error",-978969032),null], null), null);
 frontend.notifications.core.notification = (function frontend$notifications$core$notification(var_args){
-var G__39844 = arguments.length;
-switch (G__39844) {
+var G__39845 = arguments.length;
+switch (G__39845) {
 case 1:
 return frontend.notifications.core.notification.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -41,8 +41,8 @@ return new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"id
 (frontend.notifications.core.notification.cljs$lang$maxFixedArity = 3);
 
 frontend.notifications.core.add_notification = (function frontend$notifications$core$add_notification(var_args){
-var G__39870 = arguments.length;
-switch (G__39870) {
+var G__39873 = arguments.length;
+switch (G__39873) {
 case 1:
 return frontend.notifications.core.add_notification.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

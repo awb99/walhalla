@@ -22,11 +22,11 @@ return or__5045__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 });
-var links = (function (){var G__44881 = component_theme__$1;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(false,G__44881)){
+var links = (function (){var G__41470 = component_theme__$1;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(false,G__41470)){
 return cljs.core.PersistentVector.EMPTY;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(true,G__44881)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(true,G__41470)){
 return get_theme(true);
 } else {
 return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(get_theme(true),get_theme(component_theme__$1));
@@ -37,10 +37,10 @@ return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(get_theme(true),get_theme(
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.partial.cljs$core$IFn$_invoke$arity$2(frontend.css.config.link_css,prefix),links));
 });
 frontend.css.config.css_app = (function frontend$css$config$css_app(prefix,available,current){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (acc,p__44888){
-var vec__44889 = p__44888;
-var kw = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44889,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44889,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (acc,p__41494){
+var vec__41495 = p__41494;
+var kw = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41495,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41495,(1),null);
 return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(acc,frontend.css.config.css_component(prefix,available,kw,v));
 }),cljs.core.PersistentVector.EMPTY,current));
 });

@@ -17,8 +17,8 @@ modular.oauth2.protocol.provider_config.cljs$core$IMultiFn$_add_method$arity$3(n
 return cljs.core.PersistentArrayMap.EMPTY;
 }));
 modular.oauth2.protocol.known_providers = (function modular$oauth2$protocol$known_providers(){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$2((function (p1__39845_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"default","default",-1987822328),p1__39845_SHARP_);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$2((function (p1__39844_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"default","default",-1987822328),p1__39844_SHARP_);
 }),cljs.core.keys(cljs.core.methods$(modular.oauth2.protocol.provider_config))));
 });
 

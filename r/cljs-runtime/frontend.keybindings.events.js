@@ -8,9 +8,9 @@ return or__5045__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 });
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("keybindings","init","keybindings/init",1829009079),(function (db,p__44941){
-var vec__44942 = p__44941;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44942,(0),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("keybindings","init","keybindings/init",1829009079),(function (db,p__45036){
+var vec__45037 = p__45036;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45037,(0),null);
 var db__$1 = (function (){var or__5045__auto__ = db;
 if(cljs.core.truth_(or__5045__auto__)){
 return or__5045__auto__;
@@ -21,18 +21,18 @@ return cljs.core.PersistentArrayMap.EMPTY;
 var keybindings = frontend.keybindings.events.kb_from_config(db__$1);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"frontend.keybindings.events",null,23,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["keybinding init .."], null);
-}),null)),null,(146),null);
+}),null)),null,(177),null);
 
 frontend.keybindings.init.init_keybindings_BANG_(keybindings);
 
 return cljs.core.assoc_in(db__$1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keybindings","keybindings",656951934)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"search","search",1564939822),frontend.keybindings.events.clean_search], null));
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("palette","show","palette/show",234924316),(function (db,p__44953){
-var vec__44954 = p__44953;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44954,(0),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("palette","show","palette/show",234924316),(function (db,p__45047){
+var vec__45049 = p__45047;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45049,(0),null);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"frontend.keybindings.events",null,34,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["showing keybindings dialog"], null);
-}),null)),null,(152),null);
+}),null)),null,(179),null);
 
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("palette","filter-changed","palette/filter-changed",1488356424),""], null));
 
@@ -53,7 +53,7 @@ var res = clojure.string.join.cljs$core$IFn$_invoke$arity$2(".*",clojure.string.
 var pattern = ["(?i)",res,".*"].join('');
 var _ = taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"frontend.keybindings.events",null,56,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["regex: ",pattern], null);
-}),null)),null,(157),null);
+}),null)),null,(181),null);
 var re = cljs.core.re_pattern(pattern);
 return (function (item){
 var desc = (function (){var or__5045__auto__ = new cljs.core.Keyword(null,"desc","desc",2093485764).cljs$core$IFn$_invoke$arity$1(item);
@@ -67,10 +67,10 @@ var match = cljs.core.re_find(re,desc);
 return match;
 });
 });
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("palette","filter-changed","palette/filter-changed",1488356424),(function (db,p__44973){
-var vec__44978 = p__44973;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44978,(0),null);
-var query = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44978,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("palette","filter-changed","palette/filter-changed",1488356424),(function (db,p__45058){
+var vec__45063 = p__45058;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45063,(0),null);
+var query = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45063,(1),null);
 var all = frontend.keybindings.events.kb_from_config(db);
 var search_old = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keybindings","keybindings",656951934),new cljs.core.Keyword(null,"search","search",1564939822)], null));
 var visible = (((((query == null)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(query,""))))?all:cljs.core.filter.cljs$core$IFn$_invoke$arity$2(frontend.keybindings.events.make_regex(query),all));
@@ -78,14 +78,14 @@ return cljs.core.assoc_in(db,new cljs.core.PersistentVector(null, 2, 5, cljs.cor
 }));
 frontend.keybindings.events.highlight_move = (function frontend$keybindings$events$highlight_move(db,direction){
 var palette = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keybindings","keybindings",656951934),new cljs.core.Keyword(null,"search","search",1564939822)], null));
-var map__44988 = palette;
-var map__44988__$1 = cljs.core.__destructure_map(map__44988);
-var highlight = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44988__$1,new cljs.core.Keyword(null,"highlight","highlight",-800930873));
-var visible_items = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44988__$1,new cljs.core.Keyword(null,"visible-items","visible-items",1351335131));
+var map__45070 = palette;
+var map__45070__$1 = cljs.core.__destructure_map(map__45070);
+var highlight = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__45070__$1,new cljs.core.Keyword(null,"highlight","highlight",-800930873));
+var visible_items = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__45070__$1,new cljs.core.Keyword(null,"visible-items","visible-items",1351335131));
 var maxidx = (cljs.core.count(visible_items) - (1));
-var highlight_new = (function (){var G__44989 = direction;
-var G__44989__$1 = (((G__44989 instanceof cljs.core.Keyword))?G__44989.fqn:null);
-switch (G__44989__$1) {
+var highlight_new = (function (){var G__45071 = direction;
+var G__45071__$1 = (((G__45071 instanceof cljs.core.Keyword))?G__45071.fqn:null);
+switch (G__45071__$1) {
 case "up":
 if((highlight > (0))){
 return (highlight - (1));
@@ -103,36 +103,36 @@ return highlight;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__44989__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__45071__$1)].join('')));
 
 }
 })();
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"frontend.keybindings.events",null,87,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["highlight: ",highlight_new], null);
-}),null)),null,(163),null);
+}),null)),null,(186),null);
 
 return cljs.core.assoc_in(db,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keybindings","keybindings",656951934),new cljs.core.Keyword(null,"search","search",1564939822),new cljs.core.Keyword(null,"highlight","highlight",-800930873)], null),highlight_new);
 });
 frontend.keybindings.events.highlight_action = (function frontend$keybindings$events$highlight_action(db){
 var palette = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keybindings","keybindings",656951934),new cljs.core.Keyword(null,"search","search",1564939822)], null));
-var map__44992 = palette;
-var map__44992__$1 = cljs.core.__destructure_map(map__44992);
-var highlight = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44992__$1,new cljs.core.Keyword(null,"highlight","highlight",-800930873));
-var visible_items = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__44992__$1,new cljs.core.Keyword(null,"visible-items","visible-items",1351335131));
+var map__45074 = palette;
+var map__45074__$1 = cljs.core.__destructure_map(map__45074);
+var highlight = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__45074__$1,new cljs.core.Keyword(null,"highlight","highlight",-800930873));
+var visible_items = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__45074__$1,new cljs.core.Keyword(null,"visible-items","visible-items",1351335131));
 var _ = taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"frontend.keybindings.events",null,93,new cljs.core.Keyword(null,"f","f",-1597136552),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["action highlight: %s count: %s",highlight,cljs.core.count(visible_items)], null);
-}),null)),null,(164),null);
+}),null)),null,(187),null);
 var item = (cljs.core.truth_(cljs.core.not_empty(visible_items))?cljs.core.nth.cljs$core$IFn$_invoke$arity$2(visible_items,highlight):null);
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("palette","action","palette/action",-49869325),item], null));
 
 return db;
 });
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("palette","filter-keydown","palette/filter-keydown",488668044),(function (db,p__44998){
-var vec__44999 = p__44998;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44999,(0),null);
-var keycode = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44999,(1),null);
-var G__45002 = keycode;
-switch (G__45002) {
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("palette","filter-keydown","palette/filter-keydown",488668044),(function (db,p__45086){
+var vec__45088 = p__45086;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45088,(0),null);
+var keycode = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45088,(1),null);
+var G__45091 = keycode;
+switch (G__45091) {
 case (38):
 return frontend.keybindings.events.highlight_move(db,new cljs.core.Keyword(null,"up","up",-269712113));
 
@@ -156,19 +156,19 @@ return db;
 
 }
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("palette","action","palette/action",-49869325),(function (db,p__45008){
-var vec__45009 = p__45008;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45009,(0),null);
-var item = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45009,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("palette","action","palette/action",-49869325),(function (db,p__45093){
+var vec__45094 = p__45093;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45094,(0),null);
+var item = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45094,(1),null);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"frontend.keybindings.events",null,114,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["palette/action!",item], null);
-}),null)),null,(168),null);
+}),null)),null,(194),null);
 
 var handler = new cljs.core.Keyword(null,"handler","handler",-195596612).cljs$core$IFn$_invoke$arity$1(item);
 if(cljs.core.truth_(handler)){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"frontend.keybindings.events",null,117,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["dispatching",handler], null);
-}),null)),null,(169),null);
+}),null)),null,(195),null);
 
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("palette","hide","palette/hide",1820438114)], null));
 
@@ -176,7 +176,7 @@ re_frame.core.dispatch(handler);
 } else {
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"frontend.keybindings.events",null,121,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["handler not found!"], null);
-}),null)),null,(170),null);
+}),null)),null,(196),null);
 
 frontend.notifications.core.add_notification.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"danger","danger",-624338030),"keybining didn't have a handler!");
 

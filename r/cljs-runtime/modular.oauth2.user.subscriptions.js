@@ -26,10 +26,10 @@ return modular.oauth2.user.subscriptions.token_QMARK_(token);
 return false;
 }
 })], 0));
-re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("oauth2","logged-in-email-or-user","oauth2/logged-in-email-or-user",926473551),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,p__39853){
-var vec__39855 = p__39853;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39855,(0),null);
-var service = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39855,(1),null);
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("oauth2","logged-in-email-or-user","oauth2/logged-in-email-or-user",926473551),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,p__39856){
+var vec__39857 = p__39856;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39857,(0),null);
+var service = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39857,(1),null);
 var email = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"token","token",-1211463215),service,new cljs.core.Keyword(null,"email","email",1415816706)], null));
 var user = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"token","token",-1211463215),service,new cljs.core.Keyword(null,"user","user",1532431356)], null));
 var eu = (function (){var or__5045__auto__ = email;
@@ -45,9 +45,9 @@ return eu;
 return "unknown email";
 }
 })], 0));
-re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("oauth2","user","oauth2/user",-1906845315),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,p__39863){
-var vec__39864 = p__39863;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39864,(0),null);
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("oauth2","user","oauth2/user",-1906845315),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,p__39868){
+var vec__39869 = p__39868;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39869,(0),null);
 var user = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"user","user",1532431356),new cljs.core.Keyword(null,"user","user",1532431356)], null));
 return user;
 })], 0));
