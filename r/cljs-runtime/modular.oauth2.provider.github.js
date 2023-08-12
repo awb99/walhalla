@@ -1,8 +1,8 @@
 goog.provide('modular.oauth2.provider.github');
-modular.oauth2.provider.github.parse_authorize_response = (function modular$oauth2$provider$github$parse_authorize_response(p__39860){
-var map__39861 = p__39860;
-var map__39861__$1 = cljs.core.__destructure_map(map__39861);
-var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39861__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
+modular.oauth2.provider.github.parse_authorize_response = (function modular$oauth2$provider$github$parse_authorize_response(p__39870){
+var map__39871 = p__39870;
+var map__39871__$1 = cljs.core.__destructure_map(map__39871);
+var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39871__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"code","code",1586293142),new cljs.core.Keyword(null,"code","code",1586293142).cljs$core$IFn$_invoke$arity$1(query)], null);
 });
 modular.oauth2.provider.github.user_parse = (function modular$oauth2$provider$github$user_parse(data){

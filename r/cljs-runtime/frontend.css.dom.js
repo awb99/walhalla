@@ -1,14 +1,14 @@
 goog.provide('frontend.css.dom');
 frontend.css.dom.on_link_load = (function frontend$css$dom$on_link_load(var_args){
 var args__5775__auto__ = [];
-var len__5769__auto___45133 = arguments.length;
-var i__5770__auto___45134 = (0);
+var len__5769__auto___45088 = arguments.length;
+var i__5770__auto___45089 = (0);
 while(true){
-if((i__5770__auto___45134 < len__5769__auto___45133)){
-args__5775__auto__.push((arguments[i__5770__auto___45134]));
+if((i__5770__auto___45089 < len__5769__auto___45088)){
+args__5775__auto__.push((arguments[i__5770__auto___45089]));
 
-var G__45136 = (i__5770__auto___45134 + (1));
-i__5770__auto___45134 = G__45136;
+var G__45092 = (i__5770__auto___45089 + (1));
+i__5770__auto___45089 = G__45092;
 continue;
 } else {
 }
@@ -23,7 +23,7 @@ goog.exportSymbol('frontend.css.dom.on_link_load', frontend.css.dom.on_link_load
 (frontend.css.dom.on_link_load.cljs$core$IFn$_invoke$arity$variadic = (function (x,_){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"frontend.css.dom",null,7,new cljs.core.Keyword(null,"f","f",-1597136552),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["css loaded: %s",x], null);
-}),null)),null,(191),null);
+}),null)),null,(172),null);
 
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("css","loading-success","css/loading-success",-283738859),x], null));
 }));
@@ -31,23 +31,23 @@ return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.co
 (frontend.css.dom.on_link_load.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(frontend.css.dom.on_link_load.cljs$lang$applyTo = (function (seq45060){
-var G__45061 = cljs.core.first(seq45060);
-var seq45060__$1 = cljs.core.next(seq45060);
+(frontend.css.dom.on_link_load.cljs$lang$applyTo = (function (seq45041){
+var G__45042 = cljs.core.first(seq45041);
+var seq45041__$1 = cljs.core.next(seq45041);
 var self__5754__auto__ = this;
-return self__5754__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45061,seq45060__$1);
+return self__5754__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45042,seq45041__$1);
 }));
 
 frontend.css.dom.on_link_error = (function frontend$css$dom$on_link_error(var_args){
 var args__5775__auto__ = [];
-var len__5769__auto___45138 = arguments.length;
-var i__5770__auto___45139 = (0);
+var len__5769__auto___45094 = arguments.length;
+var i__5770__auto___45095 = (0);
 while(true){
-if((i__5770__auto___45139 < len__5769__auto___45138)){
-args__5775__auto__.push((arguments[i__5770__auto___45139]));
+if((i__5770__auto___45095 < len__5769__auto___45094)){
+args__5775__auto__.push((arguments[i__5770__auto___45095]));
 
-var G__45142 = (i__5770__auto___45139 + (1));
-i__5770__auto___45139 = G__45142;
+var G__45097 = (i__5770__auto___45095 + (1));
+i__5770__auto___45095 = G__45097;
 continue;
 } else {
 }
@@ -62,7 +62,7 @@ goog.exportSymbol('frontend.css.dom.on_link_error', frontend.css.dom.on_link_err
 (frontend.css.dom.on_link_error.cljs$core$IFn$_invoke$arity$variadic = (function (x,_){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"frontend.css.dom",null,11,new cljs.core.Keyword(null,"f","f",-1597136552),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["css load error: %s",x], null);
-}),null)),null,(192),null);
+}),null)),null,(178),null);
 
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("css","loading-success","css/loading-success",-283738859),x], null));
 }));
@@ -70,17 +70,17 @@ return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.co
 (frontend.css.dom.on_link_error.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(frontend.css.dom.on_link_error.cljs$lang$applyTo = (function (seq45101){
-var G__45102 = cljs.core.first(seq45101);
-var seq45101__$1 = cljs.core.next(seq45101);
+(frontend.css.dom.on_link_error.cljs$lang$applyTo = (function (seq45045){
+var G__45046 = cljs.core.first(seq45045);
+var seq45045__$1 = cljs.core.next(seq45045);
 var self__5754__auto__ = this;
-return self__5754__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45102,seq45101__$1);
+return self__5754__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45046,seq45045__$1);
 }));
 
 frontend.css.dom.add_css_link = (function frontend$css$dom$add_css_link(href){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"frontend.css.dom",null,18,new cljs.core.Keyword(null,"f","f",-1597136552),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["adding css: %s",href], null);
-}),null)),null,(193),null);
+}),null)),null,(180),null);
 
 re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("css","loading-add","css/loading-add",211864941),href], null));
 
@@ -115,7 +115,7 @@ var elem = temp__5804__auto__;
 var parent = elem.parentElement;
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"frontend.css.dom",null,41,new cljs.core.Keyword(null,"f","f",-1597136552),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["removing css: %s",href], null);
-}),null)),null,(197),null);
+}),null)),null,(188),null);
 
 return parent.removeChild(elem);
 } else {
@@ -126,15 +126,15 @@ frontend.css.dom.update_css = (function frontend$css$dom$update_css(current){
 var current_set = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentHashSet.EMPTY,current);
 var existing = frontend.css.dom.existing_css();
 var existing_set = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentHashSet.EMPTY,existing);
-var css_add = cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__45119_SHARP_){
-return (!(cljs.core.contains_QMARK_(existing_set,p1__45119_SHARP_)));
+var css_add = cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__45079_SHARP_){
+return (!(cljs.core.contains_QMARK_(existing_set,p1__45079_SHARP_)));
 }),current);
-var css_remove = cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__45120_SHARP_){
-return (!(cljs.core.contains_QMARK_(current_set,p1__45120_SHARP_)));
+var css_remove = cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__45080_SHARP_){
+return (!(cljs.core.contains_QMARK_(current_set,p1__45080_SHARP_)));
 }),existing);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"frontend.css.dom",null,50,new cljs.core.Keyword(null,"f","f",-1597136552),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["css current %s add: %s remove: %s ",current,css_add,css_remove], null);
-}),null)),null,(198),null);
+}),null)),null,(189),null);
 
 cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2(frontend.css.dom.add_css_link,css_add));
 

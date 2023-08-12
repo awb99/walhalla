@@ -1,8 +1,8 @@
 goog.provide('modular.oauth2.provider.wordpress');
-modular.oauth2.provider.wordpress.parse_authorize_code_response = (function modular$oauth2$provider$wordpress$parse_authorize_code_response(p__39865){
-var map__39866 = p__39865;
-var map__39866__$1 = cljs.core.__destructure_map(map__39866);
-var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39866__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
+modular.oauth2.provider.wordpress.parse_authorize_code_response = (function modular$oauth2$provider$wordpress$parse_authorize_code_response(p__39863){
+var map__39865 = p__39863;
+var map__39865__$1 = cljs.core.__destructure_map(map__39865);
+var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39865__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
 var map__39867 = query;
 var map__39867__$1 = cljs.core.__destructure_map(map__39867);
 var scope = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39867__$1,new cljs.core.Keyword(null,"scope","scope",-439358418));
