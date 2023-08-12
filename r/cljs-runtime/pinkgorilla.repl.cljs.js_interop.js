@@ -8,9 +8,9 @@ goog.scope(function(){
  * https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
  */
 pinkgorilla.repl.cljs.js_interop.value_of = (function pinkgorilla$repl$cljs$js_interop$value_of(obj,k){
-try{var v = (function (){var obj50714 = obj;
-if((!((obj50714 == null)))){
-return (obj50714[applied_science.js_interop.impl.wrap_key(k)]);
+try{var v = (function (){var obj50785 = obj;
+if((!((obj50785 == null)))){
+return (obj50785[applied_science.js_interop.impl.wrap_key(k)]);
 } else {
 return undefined;
 }
@@ -18,11 +18,11 @@ return undefined;
 v.constructor;
 
 return v;
-}catch (e50713){if((e50713 instanceof Error)){
-var _ = e50713;
+}catch (e50784){if((e50784 instanceof Error)){
+var _ = e50784;
 return new cljs.core.Symbol(null,"forbidden","forbidden",-338916619,null);
 } else {
-throw e50713;
+throw e50784;
 
 }
 }});

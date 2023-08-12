@@ -1,49 +1,14 @@
 goog.provide('pinkgorilla.repl.cljs.webly');
-pinkgorilla.repl.cljs.webly.nav = (function pinkgorilla$repl$cljs$webly$nav(var_args){
-var args__5775__auto__ = [];
-var len__5769__auto___51214 = arguments.length;
-var i__5770__auto___51215 = (0);
-while(true){
-if((i__5770__auto___51215 < len__5769__auto___51214)){
-args__5775__auto__.push((arguments[i__5770__auto___51215]));
-
-var G__51216 = (i__5770__auto___51215 + (1));
-i__5770__auto___51215 = G__51216;
-continue;
-} else {
-}
-break;
-}
-
-var argseq__5776__auto__ = ((((0) < args__5775__auto__.length))?(new cljs.core.IndexedSeq(args__5775__auto__.slice((0)),(0),null)):null);
-return pinkgorilla.repl.cljs.webly.nav.cljs$core$IFn$_invoke$arity$variadic(argseq__5776__auto__);
-});
-
-(pinkgorilla.repl.cljs.webly.nav.cljs$core$IFn$_invoke$arity$variadic = (function (args){
-return re_frame.core.dispatch(cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("bidi","goto","bidi/goto",82927145)], null),args)));
-}));
-
-(pinkgorilla.repl.cljs.webly.nav.cljs$lang$maxFixedArity = (0));
-
-/** @this {Function} */
-(pinkgorilla.repl.cljs.webly.nav.cljs$lang$applyTo = (function (seq51206){
-var self__5755__auto__ = this;
-return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq51206));
-}));
-
-pinkgorilla.repl.cljs.webly.current_route = (function pinkgorilla$repl$cljs$webly$current_route(){
-return cljs.core.deref(frontend.routes.current);
-});
 pinkgorilla.repl.cljs.webly.dialog = (function pinkgorilla$repl$cljs$webly$dialog(var_args){
 var args__5775__auto__ = [];
-var len__5769__auto___51217 = arguments.length;
-var i__5770__auto___51218 = (0);
+var len__5769__auto___50359 = arguments.length;
+var i__5770__auto___50360 = (0);
 while(true){
-if((i__5770__auto___51218 < len__5769__auto___51217)){
-args__5775__auto__.push((arguments[i__5770__auto___51218]));
+if((i__5770__auto___50360 < len__5769__auto___50359)){
+args__5775__auto__.push((arguments[i__5770__auto___50360]));
 
-var G__51219 = (i__5770__auto___51218 + (1));
-i__5770__auto___51218 = G__51219;
+var G__50361 = (i__5770__auto___50360 + (1));
+i__5770__auto___50360 = G__50361;
 continue;
 } else {
 }
@@ -54,9 +19,9 @@ var argseq__5776__auto__ = ((((1) < args__5775__auto__.length))?(new cljs.core.I
 return pinkgorilla.repl.cljs.webly.dialog.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__5776__auto__);
 });
 
-(pinkgorilla.repl.cljs.webly.dialog.cljs$core$IFn$_invoke$arity$variadic = (function (f,p__51209){
-var vec__51210 = p__51209;
-var size = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51210,(0),null);
+(pinkgorilla.repl.cljs.webly.dialog.cljs$core$IFn$_invoke$arity$variadic = (function (f,p__50348){
+var vec__50349 = p__50348;
+var size = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50349,(0),null);
 if(cljs.core.truth_(size)){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("modal","open","modal/open",-1860325197),f,new cljs.core.Keyword(null,"small","small",2133478704)], null));
 } else {
@@ -67,23 +32,23 @@ return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.co
 (pinkgorilla.repl.cljs.webly.dialog.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(pinkgorilla.repl.cljs.webly.dialog.cljs$lang$applyTo = (function (seq51207){
-var G__51208 = cljs.core.first(seq51207);
-var seq51207__$1 = cljs.core.next(seq51207);
+(pinkgorilla.repl.cljs.webly.dialog.cljs$lang$applyTo = (function (seq50346){
+var G__50347 = cljs.core.first(seq50346);
+var seq50346__$1 = cljs.core.next(seq50346);
 var self__5754__auto__ = this;
-return self__5754__auto__.cljs$core$IFn$_invoke$arity$variadic(G__51208,seq51207__$1);
+return self__5754__auto__.cljs$core$IFn$_invoke$arity$variadic(G__50347,seq50346__$1);
 }));
 
 pinkgorilla.repl.cljs.webly.notify = (function pinkgorilla$repl$cljs$webly$notify(var_args){
 var args__5775__auto__ = [];
-var len__5769__auto___51220 = arguments.length;
-var i__5770__auto___51221 = (0);
+var len__5769__auto___50363 = arguments.length;
+var i__5770__auto___50364 = (0);
 while(true){
-if((i__5770__auto___51221 < len__5769__auto___51220)){
-args__5775__auto__.push((arguments[i__5770__auto___51221]));
+if((i__5770__auto___50364 < len__5769__auto___50363)){
+args__5775__auto__.push((arguments[i__5770__auto___50364]));
 
-var G__51222 = (i__5770__auto___51221 + (1));
-i__5770__auto___51221 = G__51222;
+var G__50365 = (i__5770__auto___50364 + (1));
+i__5770__auto___50364 = G__50365;
 continue;
 } else {
 }
@@ -101,9 +66,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(frontend.notifications.core
 (pinkgorilla.repl.cljs.webly.notify.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(pinkgorilla.repl.cljs.webly.notify.cljs$lang$applyTo = (function (seq51213){
+(pinkgorilla.repl.cljs.webly.notify.cljs$lang$applyTo = (function (seq50352){
 var self__5755__auto__ = this;
-return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq51213));
+return self__5755__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq50352));
 }));
 
 

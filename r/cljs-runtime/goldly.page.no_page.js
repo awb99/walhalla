@@ -4,13 +4,13 @@ return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMP
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("bidi","goto","bidi/goto",82927145),new cljs.core.Keyword(null,"devtools","devtools",-1870878518)], null));
 })], null),"Goto Devtools"], null)], null)], null);
 });
-frontend.page.reagent_page.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("goldly","no-page","goldly/no-page",1029402457),(function (p__50766){
-var map__50767 = p__50766;
-var map__50767__$1 = cljs.core.__destructure_map(map__50767);
-var route = map__50767__$1;
-var route_params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50767__$1,new cljs.core.Keyword(null,"route-params","route-params",2111411055));
-var query_params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50767__$1,new cljs.core.Keyword(null,"query-params","query-params",900640534));
-var handler = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50767__$1,new cljs.core.Keyword(null,"handler","handler",-195596612));
+frontend.page.reagent_page.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("goldly","no-page","goldly/no-page",1029402457),(function (p__49294){
+var map__49295 = p__49294;
+var map__49295__$1 = cljs.core.__destructure_map(map__49295);
+var route = map__49295__$1;
+var route_params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49295__$1,new cljs.core.Keyword(null,"route-params","route-params",2111411055));
+var query_params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49295__$1,new cljs.core.Keyword(null,"query-params","query-params",900640534));
+var handler = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49295__$1,new cljs.core.Keyword(null,"handler","handler",-195596612));
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [goldly.page.no_page.no_page], null);
 }));
 
