@@ -1,11 +1,11 @@
 goog.provide('frontend.css.loading');
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("css","loading-add","css/loading-add",211864941),(function (db,p__44864){
-var vec__44868 = p__44864;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44868,(0),null);
-var href = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44868,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("css","loading-add","css/loading-add",211864941),(function (db,p__44863){
+var vec__44865 = p__44863;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44865,(0),null);
+var href = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44865,(1),null);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"frontend.css.loading",null,9,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["css/loading-add: ",href], null);
-}),null)),null,(125),null);
+}),null)),null,(124),null);
 
 var css_loading = (function (){var or__5045__auto__ = new cljs.core.Keyword("css","loading","css/loading",-736953422).cljs$core$IFn$_invoke$arity$1(db);
 if(cljs.core.truth_(or__5045__auto__)){
@@ -21,13 +21,13 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 
 return cljs.core.assoc_in(db,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("css","loading","css/loading",-736953422)], null),css_loading__$1);
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("css","loading-success","css/loading-success",-283738859),(function (db,p__44877){
-var vec__44878 = p__44877;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44878,(0),null);
-var href = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44878,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("css","loading-success","css/loading-success",-283738859),(function (db,p__44874){
+var vec__44876 = p__44874;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44876,(0),null);
+var href = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__44876,(1),null);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"frontend.css.loading",null,18,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["css/loading-success: ",href], null);
-}),null)),null,(128),null);
+}),null)),null,(127),null);
 
 var css_loading = (function (){var or__5045__auto__ = new cljs.core.Keyword("css","loading","css/loading",-736953422).cljs$core$IFn$_invoke$arity$1(db);
 if(cljs.core.truth_(or__5045__auto__)){

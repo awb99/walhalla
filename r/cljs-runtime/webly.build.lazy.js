@@ -6,7 +6,7 @@ webly.build.lazy.renderer = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(cljs
 webly.build.lazy.log_loading = (function webly$build$lazy$log_loading(symbol_fn){
 return taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"webly.build.lazy",null,15,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["webly lazy loading: ",symbol_fn], null);
-}),null)),null,(170),null);
+}),null)),null,(166),null);
 });
 if((typeof webly !== 'undefined') && (typeof webly.build !== 'undefined') && (typeof webly.build.lazy !== 'undefined') && (typeof webly.build.lazy.on_load !== 'undefined')){
 } else {
@@ -18,26 +18,26 @@ return cljs.core.keys(cljs.core.deref(webly.build.lazy.renderer));
 webly.build.lazy.add_available = (function webly$build$lazy$add_available(s){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"webly.build.lazy",null,23,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["available lazy renderer: ",s], null);
-}),null)),null,(175),null);
+}),null)),null,(167),null);
 
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(webly.build.lazy.renderer,cljs.core.assoc,s,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"symbol","symbol",-1038572696),s], null));
 });
 webly.build.lazy.add_loaded = (function webly$build$lazy$add_loaded(s,f){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"webly.build.lazy",null,27,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["loaded lazy renderer: ",s], null);
-}),null)),null,(177),null);
+}),null)),null,(169),null);
 
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(webly.build.lazy.renderer,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [s,new cljs.core.Keyword(null,"fun","fun",-1265158045)], null),f);
 });
 webly.build.lazy.start_load = (function webly$build$lazy$start_load(symbol_fn,load_spec){
-var fexpr__45055_45122 = cljs.core.deref(webly.build.lazy.on_load);
-(fexpr__45055_45122.cljs$core$IFn$_invoke$arity$1 ? fexpr__45055_45122.cljs$core$IFn$_invoke$arity$1(symbol_fn) : fexpr__45055_45122.call(null,symbol_fn));
+var fexpr__45034_45071 = cljs.core.deref(webly.build.lazy.on_load);
+(fexpr__45034_45071.cljs$core$IFn$_invoke$arity$1 ? fexpr__45034_45071.cljs$core$IFn$_invoke$arity$1(symbol_fn) : fexpr__45034_45071.call(null,symbol_fn));
 
 try{return shadow.lazy.load.cljs$core$IFn$_invoke$arity$2(load_spec,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(webly.build.lazy.add_loaded,symbol_fn));
-}catch (e45056){var e = e45056;
+}catch (e45038){var e = e45038;
 return taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"webly.build.lazy",null,35,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Lazy Loading failed for: ",symbol_fn], null);
-}),null)),null,(181),null);
+}),null)),null,(172),null);
 }});
 webly.build.lazy.run = (function webly$build$lazy$run(f,args){
 if(cljs.core.truth_(args)){
@@ -48,14 +48,14 @@ return (f.cljs$core$IFn$_invoke$arity$0 ? f.cljs$core$IFn$_invoke$arity$0() : f.
 });
 webly.build.lazy.loading = (function webly$build$lazy$loading(var_args){
 var args__5775__auto__ = [];
-var len__5769__auto___45123 = arguments.length;
-var i__5770__auto___45124 = (0);
+var len__5769__auto___45072 = arguments.length;
+var i__5770__auto___45073 = (0);
 while(true){
-if((i__5770__auto___45124 < len__5769__auto___45123)){
-args__5775__auto__.push((arguments[i__5770__auto___45124]));
+if((i__5770__auto___45073 < len__5769__auto___45072)){
+args__5775__auto__.push((arguments[i__5770__auto___45073]));
 
-var G__45125 = (i__5770__auto___45124 + (1));
-i__5770__auto___45124 = G__45125;
+var G__45074 = (i__5770__auto___45073 + (1));
+i__5770__auto___45073 = G__45074;
 continue;
 } else {
 }
@@ -73,17 +73,17 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 (webly.build.lazy.loading.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(webly.build.lazy.loading.cljs$lang$applyTo = (function (seq45064){
-var G__45065 = cljs.core.first(seq45064);
-var seq45064__$1 = cljs.core.next(seq45064);
+(webly.build.lazy.loading.cljs$lang$applyTo = (function (seq45045){
+var G__45046 = cljs.core.first(seq45045);
+var seq45045__$1 = cljs.core.next(seq45045);
 var self__5754__auto__ = this;
-return self__5754__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45065,seq45064__$1);
+return self__5754__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45046,seq45045__$1);
 }));
 
 webly.build.lazy.show_lazy = (function webly$build$lazy$show_lazy(load_spec,symbol_fn){
 var css_loading_QMARK_ = re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("css","loading?","css/loading?",1905541688)], null));
 return (function() { 
-var G__45126__delegate = function (args){
+var G__45075__delegate = function (args){
 var r = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(webly.build.lazy.renderer),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [symbol_fn,new cljs.core.Keyword(null,"fun","fun",-1265158045)], null));
 if(cljs.core.truth_((function (){var and__5043__auto__ = r;
 if(cljs.core.truth_(and__5043__auto__)){
@@ -99,21 +99,21 @@ webly.build.lazy.start_load(symbol_fn,load_spec);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [webly.build.lazy.loading,symbol_fn], null);
 }
 };
-var G__45126 = function (var_args){
+var G__45075 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__45127__i = 0, G__45127__a = new Array(arguments.length -  0);
-while (G__45127__i < G__45127__a.length) {G__45127__a[G__45127__i] = arguments[G__45127__i + 0]; ++G__45127__i;}
-  args = new cljs.core.IndexedSeq(G__45127__a,0,null);
+var G__45076__i = 0, G__45076__a = new Array(arguments.length -  0);
+while (G__45076__i < G__45076__a.length) {G__45076__a[G__45076__i] = arguments[G__45076__i + 0]; ++G__45076__i;}
+  args = new cljs.core.IndexedSeq(G__45076__a,0,null);
 } 
-return G__45126__delegate.call(this,args);};
-G__45126.cljs$lang$maxFixedArity = 0;
-G__45126.cljs$lang$applyTo = (function (arglist__45128){
-var args = cljs.core.seq(arglist__45128);
-return G__45126__delegate(args);
+return G__45075__delegate.call(this,args);};
+G__45075.cljs$lang$maxFixedArity = 0;
+G__45075.cljs$lang$applyTo = (function (arglist__45077){
+var args = cljs.core.seq(arglist__45077);
+return G__45075__delegate(args);
 });
-G__45126.cljs$core$IFn$_invoke$arity$variadic = G__45126__delegate;
-return G__45126;
+G__45075.cljs$core$IFn$_invoke$arity$variadic = G__45075__delegate;
+return G__45075;
 })()
 ;
 });

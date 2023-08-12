@@ -1,9 +1,9 @@
 goog.provide('frontend.routes.events');
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("bidi","init","bidi/init",-1883240046),(function (db,p__45546){
-var vec__45548 = p__45546;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45548,(0),null);
-var routes_frontend = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45548,(1),null);
-var routes_backend = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45548,(2),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("bidi","init","bidi/init",-1883240046),(function (db,p__45550){
+var vec__45553 = p__45550;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45553,(0),null);
+var routes_frontend = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45553,(1),null);
+var routes_backend = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45553,(2),null);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"frontend.routes.events",null,11,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["bidi init .."], null);
 }),null)),null,(96),null);
@@ -23,7 +23,7 @@ return cljs.core.PersistentArrayMap.EMPTY;
 })();
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"frontend.routes.events",null,15,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["starting pushy"], null);
-}),null)),null,(99),null);
+}),null)),null,(100),null);
 
 frontend.routes.history.pushy$core$IHistory$start_BANG_$arity$1(null);
 

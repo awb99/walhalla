@@ -2,8 +2,9 @@
   (:require
    [ui.bidi]))
 
-(println "initializing bidi router...")
-(ui.bidi/init!
+
+
+(def routes 
  {"" :user/main
   "lazy" :user/lazy
   "error" :user/error
@@ -19,7 +20,10 @@
   "devtools/runtime" :runtime
   "devtools/theme" :theme})
 
-(ui.bidi/goto! :user/main)
+(defn init []
+  (println "initializing bidi router...")
+  (ui.bidi/start-router! routes)
+  (ui.bidi/goto! :user/main))
 
 (defn router-page []
   [ui.bidi/page-viewer])

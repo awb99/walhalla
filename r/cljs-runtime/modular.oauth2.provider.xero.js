@@ -1,8 +1,8 @@
 goog.provide('modular.oauth2.provider.xero');
-modular.oauth2.provider.xero.parse_authorize_response = (function modular$oauth2$provider$xero$parse_authorize_response(p__39868){
-var map__39869 = p__39868;
-var map__39869__$1 = cljs.core.__destructure_map(map__39869);
-var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39869__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
+modular.oauth2.provider.xero.parse_authorize_response = (function modular$oauth2$provider$xero$parse_authorize_response(p__39862){
+var map__39863 = p__39862;
+var map__39863__$1 = cljs.core.__destructure_map(map__39863);
+var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39863__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"scope","scope",-439358418),new cljs.core.Keyword(null,"scope","scope",-439358418).cljs$core$IFn$_invoke$arity$1(query),new cljs.core.Keyword(null,"code","code",1586293142),new cljs.core.Keyword(null,"code","code",1586293142).cljs$core$IFn$_invoke$arity$1(query)], null);
 });
 modular.oauth2.provider.xero.api_request_auth_header = (function modular$oauth2$provider$xero$api_request_auth_header(token){

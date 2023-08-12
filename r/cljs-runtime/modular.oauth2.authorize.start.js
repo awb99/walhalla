@@ -6,15 +6,15 @@ modular.oauth2.authorize.start.open_authorize_window = (function modular$oauth2$
 var url_auth = modular.oauth2.provider.url_start(provider,modular.oauth2.authorize.start.current_url());
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.authorize.start",null,18,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["opening oauth2 window: ",url_auth], null);
-}),null)),null,(60),null);
+}),null)),null,(61),null);
 
 return window.open(url_auth,["Webly OAuth2 ",cljs.core.name(provider)].join(''),"width=500,height=600");
 });
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","authorize-start","oauth2/authorize-start",1379461893),(function (db,p__41342){
-var vec__41343 = p__41342;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41343,(0),null);
-var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41343,(1),null);
-var oauth_success_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41343,(2),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("oauth2","authorize-start","oauth2/authorize-start",1379461893),(function (db,p__41347){
+var vec__41348 = p__41347;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(0),null);
+var provider = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(1),null);
+var oauth_success_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41348,(2),null);
 var window__$1 = modular.oauth2.authorize.start.open_authorize_window(db,provider);
 return cljs.core.assoc_in(db,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"oauth-authorize","oauth-authorize",1699524488)], null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"window","window",724519534),window__$1,new cljs.core.Keyword(null,"success-event","success-event",2038143820),oauth_success_event], null));
 }));

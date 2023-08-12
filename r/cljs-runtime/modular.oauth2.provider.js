@@ -7,7 +7,7 @@ modular.oauth2.provider.get_provider_config = (function modular$oauth2$provider$
 var c = modular.oauth2.protocol.provider_config.cljs$core$IFn$_invoke$arity$1(p);
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"debug","debug",-1608172596),"modular.oauth2.provider",null,26,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["provider ",p,"config: ",c], null);
-}),null)),null,(47),null);
+}),null)),null,(43),null);
 
 return c;
 });
@@ -53,12 +53,12 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cemerick.url.url.cljs$core$
 modular.oauth2.provider.url_without_qp = (function modular$oauth2$provider$url_without_qp(url_str){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.provider",null,77,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["url with qp: ",url_str], null);
-}),null)),null,(48),null);
+}),null)),null,(46),null);
 
 var url_no_qp_str = cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(cemerick.url.url.cljs$core$IFn$_invoke$arity$1(url_str),new cljs.core.Keyword(null,"query","query",-1288509510),null,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"anchor","anchor",1549638489),null], 0)));
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"modular.oauth2.provider",null,81,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["url without qp: ",url_no_qp_str], null);
-}),null)),null,(49),null);
+}),null)),null,(47),null);
 
 return url_no_qp_str;
 });
@@ -66,14 +66,14 @@ modular.oauth2.provider.url_redirect = (function modular$oauth2$provider$url_red
 return modular.oauth2.provider.url_without_qp(modular.oauth2.provider.set_relative_path(current_url,new cljs.core.Keyword(null,"redirect-uri","redirect-uri",374475842).cljs$core$IFn$_invoke$arity$1(modular.oauth2.provider.provider_uri(provider_kw))));
 });
 modular.oauth2.provider.url_authorize = (function modular$oauth2$provider$url_authorize(config,provider,current_url){
-var map__39903 = modular.oauth2.provider.full_provider_config(config,provider);
-var map__39903__$1 = cljs.core.__destructure_map(map__39903);
-var authorize_uri = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39903__$1,new cljs.core.Keyword(null,"authorize-uri","authorize-uri",1296259534));
-var client_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39903__$1,new cljs.core.Keyword(null,"client-id","client-id",-464622140));
-var scope = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39903__$1,new cljs.core.Keyword(null,"scope","scope",-439358418));
-var authorize_query_params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39903__$1,new cljs.core.Keyword(null,"authorize-query-params","authorize-query-params",2017344958));
-var authorize_nonce = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39903__$1,new cljs.core.Keyword(null,"authorize-nonce","authorize-nonce",-957663765));
-var authorize_redirect_uri_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39903__$1,new cljs.core.Keyword(null,"authorize-redirect-uri-name","authorize-redirect-uri-name",1553957341));
+var map__39906 = modular.oauth2.provider.full_provider_config(config,provider);
+var map__39906__$1 = cljs.core.__destructure_map(map__39906);
+var authorize_uri = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39906__$1,new cljs.core.Keyword(null,"authorize-uri","authorize-uri",1296259534));
+var client_id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39906__$1,new cljs.core.Keyword(null,"client-id","client-id",-464622140));
+var scope = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39906__$1,new cljs.core.Keyword(null,"scope","scope",-439358418));
+var authorize_query_params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39906__$1,new cljs.core.Keyword(null,"authorize-query-params","authorize-query-params",2017344958));
+var authorize_nonce = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39906__$1,new cljs.core.Keyword(null,"authorize-nonce","authorize-nonce",-957663765));
+var authorize_redirect_uri_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39906__$1,new cljs.core.Keyword(null,"authorize-redirect-uri-name","authorize-redirect-uri-name",1553957341));
 var query = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"client_id","client_id",48809273),client_id,new cljs.core.Keyword(null,"redirect_uri","redirect_uri",-1479457764),modular.oauth2.provider.url_redirect(provider,current_url),new cljs.core.Keyword(null,"scope","scope",-439358418),modular.oauth2.provider.scope__GT_string(scope)], null);
 var query__$1 = (cljs.core.truth_(authorize_redirect_uri_name)?clojure.set.rename_keys(query,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"redirect_uri","redirect_uri",-1479457764),authorize_redirect_uri_name], null)):query);
 var query__$2 = (cljs.core.truth_(authorize_nonce)?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(query__$1,new cljs.core.Keyword(null,"nonce","nonce",564330331),modular.oauth2.provider.nonce()):query__$1);
@@ -97,7 +97,7 @@ return (auth_header.cljs$core$IFn$_invoke$arity$1 ? auth_header.cljs$core$IFn$_i
 } else {
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"modular.oauth2.provider",null,124,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["cannot get auth header for unknwon provider"], null);
-}),null)),null,(56),null);
+}),null)),null,(57),null);
 
 return cljs.core.PersistentArrayMap.EMPTY;
 }
@@ -111,7 +111,7 @@ return (user_parse.cljs$core$IFn$_invoke$arity$1 ? user_parse.cljs$core$IFn$_inv
 } else {
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"modular.oauth2.provider",null,131,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["cannot parse userinfo unknwon provider"], null);
-}),null)),null,(57),null);
+}),null)),null,(58),null);
 
 return cljs.core.PersistentArrayMap.EMPTY;
 }

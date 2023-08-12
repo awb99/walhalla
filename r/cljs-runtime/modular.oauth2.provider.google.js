@@ -1,14 +1,14 @@
 goog.provide('modular.oauth2.provider.google');
-modular.oauth2.provider.google.parse_authorize_code_response = (function modular$oauth2$provider$google$parse_authorize_code_response(p__39855){
-var map__39856 = p__39855;
-var map__39856__$1 = cljs.core.__destructure_map(map__39856);
-var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39856__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
-var map__39861 = query;
-var map__39861__$1 = cljs.core.__destructure_map(map__39861);
-var scope = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39861__$1,new cljs.core.Keyword(null,"scope","scope",-439358418));
-var code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39861__$1,new cljs.core.Keyword(null,"code","code",1586293142));
-var prompt = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39861__$1,new cljs.core.Keyword(null,"prompt","prompt",-78109487));
-var authuser = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39861__$1,new cljs.core.Keyword(null,"authuser","authuser",926833728));
+modular.oauth2.provider.google.parse_authorize_code_response = (function modular$oauth2$provider$google$parse_authorize_code_response(p__39851){
+var map__39852 = p__39851;
+var map__39852__$1 = cljs.core.__destructure_map(map__39852);
+var query = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39852__$1,new cljs.core.Keyword(null,"query","query",-1288509510));
+var map__39853 = query;
+var map__39853__$1 = cljs.core.__destructure_map(map__39853);
+var scope = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39853__$1,new cljs.core.Keyword(null,"scope","scope",-439358418));
+var code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39853__$1,new cljs.core.Keyword(null,"code","code",1586293142));
+var prompt = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39853__$1,new cljs.core.Keyword(null,"prompt","prompt",-78109487));
+var authuser = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39853__$1,new cljs.core.Keyword(null,"authuser","authuser",926833728));
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"scope","scope",-439358418),scope,new cljs.core.Keyword(null,"code","code",1586293142),code], null);
 });
 modular.oauth2.provider.google.user_parse = (function modular$oauth2$provider$google$user_parse(data){
