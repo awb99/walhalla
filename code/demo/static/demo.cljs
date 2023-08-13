@@ -21,7 +21,7 @@
 
 (defn init []
   (println "initializing bidi router...")
-  (ui.bidi/start-router! routes)
+  (ui.bidi/start-router! routes "/walhalla")
   (ui.bidi/goto! :user/main))
 
 (defn router-page []
