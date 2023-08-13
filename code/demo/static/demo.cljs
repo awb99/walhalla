@@ -2,23 +2,22 @@
   (:require
    [ui.bidi]))
 
-
-
-(def routes 
- {"" :user/main
-  "lazy" :user/lazy
-  "error" :user/error
-  "select" :user/select
-  "tick" :user/tick
+(def routes
+  ["/"
+   {"" :user/main
+   "lazy" :user/lazy
+   "error" :user/error
+   "select" :user/select
+   "tick" :user/tick
 
     ;devtools
-  "devtools/help" :devtools
-  "devtools/repl" :repl
-  "devtools/pages" :pages
-  "devtools/viewer" :viewer
-  "devtools/build" :build
-  "devtools/runtime" :runtime
-  "devtools/theme" :theme})
+   "devtools/help" :devtools
+   "devtools/repl" :repl
+   "devtools/pages" :pages
+   "devtools/viewer" :viewer
+   "devtools/build" :build
+   "devtools/runtime" :runtime
+    "devtools/theme" :theme}])
 
 (defn init []
   (println "initializing bidi router...")
